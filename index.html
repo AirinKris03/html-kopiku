@@ -9,8 +9,8 @@
       property="og:description"
       content="Nikmati kopi lokal berkualitas dan suasana nyaman hanya di KopiKu."
     />
-    <meta property="og:image" content="https://example.com/kopiku-banner.jpg" />
-    <meta property="og:url" content="https://kopiku.example.com" />
+    <meta property="og:image" content="https://i.etsystatic.com/23334810/r/il/b0b3ae/2374596665/il_1080xN.2374596665_1jy8.jpg" />
+    <meta property="og:url" content="https://kopiku.com" />
   </head>
   <body>
     <!-- Header -->
@@ -22,10 +22,10 @@
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#about">About Kopiku</a>
+            <a href="#pesan">Pesan Kopiku</a>
           </li>
           <li>
-            <a href="#menu">Menu Kopiku</a>
+            <a href="#about">About Kopiku</a>
           </li>
           <li>
             <a href="#contact">Yuk, Kenal Kopiku</a>
@@ -34,16 +34,20 @@
       </nav>
     </header>
     <main>
-        <!-- Opening -->
+      <!-- Opening -->
+      <section id="home">
       <h1>SELAMAT DATANG DI KEDAI KOPIKU</h1>
       <h2>Kedai Kopi Lokal Favoritmu</h2>
+      <img src="https://i.etsystatic.com/23334810/r/il/b0b3ae/2374596665/il_1080xN.2374596665_1jy8.jpg" alt="Banner Kopiku" width="600px" height="360px">
+      </section>
       <article>
-        <section>
-            <!-- Formulir Pemesanan -->
+        <section id="pesan">
+          <h3>Pesan Kopiku Sekarang</h3>
+          <!-- Formulir Pemesanan -->
           <form action="">
             <!-- Input Text - Nama Lengkap -->
             <div>
-              <label for="name-input">Nama Lengkap: </label> <br>
+              <label for="name-input">Nama Lengkap: </label> <br />
               <input
                 type="text"
                 name="name"
@@ -56,23 +60,14 @@
             <br />
             <!-- Radio Button - Pilih tempat duduk -->
             <div>
-              <label for="radio-input">Pillih Tempat Duduk Favoritmu: </label> <br>
-              <input
-                type="radio"
-                name="radio"
-                id="radio-input"
-                value="1"
-              />
+              <label for="radio-input">Pillih Tempat Duduk Favoritmu: </label>
+              <br />
+              <input type="radio" name="radio" id="radio-input" value="1" />
               <label for="radio-input">Indoor (Dalam Ruangan)</label>
-              <input
-                type="radio"
-                name="radio"
-                id="radio-input"
-                value="2"
-              />
+              <input type="radio" name="radio" id="radio-input" value="2" />
               <label for="radio-input">Outdoor (Luar Ruangan)</label>
             </div>
-            <br>
+            <br />
             <!-- Dropdown select - Pilih Jenis kopi -->
             <div>
               <label for="select-input">Pilih Jenis Kopi Favoritmu: </label>
@@ -84,10 +79,10 @@
                 <option value="5">Mocha</option>
               </select>
             </div>
-            <br>
+            <br />
             <!-- Checkbox - Permintaan lain -->
             <div>
-              <label for="checkbox-input">Ada permintaan lain? </label> <br>
+              <label for="checkbox-input">Ada permintaan lain? </label> <br />
               <input
                 type="checkbox"
                 name="checkbox"
@@ -112,25 +107,88 @@
               />
               <label for="checkbox-input">Password Wifi</label>
             </div>
-            <br>
+            <br />
             <!-- Text Area - Catatan Tambahan -->
             <div>
               <label for="textarea-input">Ada Catatan Tambahan? </label>
-              <br>
+              <br />
               <textarea
                 name="textarea"
                 id="textarea-input"
                 placeholder="Masukkan Keterangan Tambahan"
               ></textarea>
             </div>
-            <br>
+            <br />
             <!-- Button - Submit Pesanan -->
             <button type="submit">Pesan Kopiku</button>
           </form>
         </section>
-      </article>
+      </article> <br>
+      <!-- Section About -->
+      <section id="about">
+        <h3>Penasaran Tentang Kopiku?</h3>
+        <img src="https://i.etsystatic.com/22555528/r/il/4438a9/4331913991/il_fullxfull.4331913991_5gar.jpg" alt="Kedai Kopi Kopiku" width="320px" height="200px">
+        <p>
+          Kopiku adalah tempat yang hangat dan bersahaja untuk siapa saja yang
+          mencari kenyamanan dalam secangkir kopi. Terletak di tengah
+          hiruk-pikuk kota, Kopiku menghadirkan suasana tenang yang memadukan
+          desain minimalis modern dengan sentuhan kayu dan tanaman hijau,
+          menciptakan ruang yang cocok untuk bekerja, berbincang, atau sekadar
+          melepas penat.
+        </p>
+        <p>
+          Menu Kopiku menawarkan beragam pilihan kopi spesialti dari biji kopi
+          lokal terbaik Indonesia, diseduh dengan penuh ketelitian oleh barista
+          berpengalaman. Mulai dari espresso klasik, manual brew, hingga varian
+          kopi susu kekinian yang nikmat. Selain kopi, tersedia pula berbagai
+          pilihan teh, minuman non-kafein, serta kudapan rumahan yang lezat.
+        </p>
+        <p>
+          Lebih dari sekadar tempat ngopi, Kopiku adalah ruang untuk berbagi
+          cerita, ide, dan inspirasi. Karena di setiap tegukan, ada rasa yang
+          ingin dibagi.
+        </p>
+      </section>
+      
+      <!-- Section Contact -->
+      <section id="contact">
+        <h3>Kenal Kopiku Lebih Dekat</h3>
+        <p>
+          Jangan ragu untuk berkunjung ke Kopiku! Kami sangat senang untuk
+          menemani Anda dalam menjelajahi kota dan menikmati suasana yang
+          nyaman.
+        </p>
+        <p>
+          Kalau mau tau info tentang Kopiku lebih lanjut, jangan ragu untuk
+          menghubungi kami di <a href="mailto:kopiku@gmail.com">kopiku@gmail.com</a>,
+          atau hubungi kami di <a href="tel:+628995073933">https://wa.me/628995073933</a>.
+        </p>
+        <p>
+          Malu-malu menghubungi Kopiku? Beritahu kami kontak kamu dengan isi form di bawah, ya! Nanti, kami beri informasi menarik tentang Kopiku.
+          <div>
+              <label for="email-input">Email Kamu: </label> <br />
+              <input
+                type="email"
+                name="email"
+                id="email-input"
+                placeholder="Masukkan Email Kamu"
+              />
+            </div>
+            <br>
+            <div>
+              <label for="phone-input">No WhatsApp/ Telepon Kamu: </label> <br />
+              <input
+                type="tel"
+                name="phone"
+                minlength="10"
+                maxlength="13"
+                id="phone-input"
+                placeholder="Masukkan No WhatsApp/ Telepon Kamu"
+              />
+            </div>
+        </p>
+      </section>
     </main>
-    <aside></aside>
     <footer>
       <p>&copy; 2025 KopiKu. All rights reserved.</p>
     </footer>
