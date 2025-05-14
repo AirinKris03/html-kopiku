@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KOPIKU</title>
+    <meta property="og:title" content="KopiKu - Kedai Kopi Lokal Favorit" />
+    <meta
+      property="og:description"
+      content="Nikmati kopi lokal berkualitas dan suasana nyaman hanya di KopiKu."
+    />
+    <meta property="og:image" content="https://example.com/kopiku-banner.jpg" />
+    <meta property="og:url" content="https://kopiku.example.com" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Menu Navigasi -->
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About Kopiku</a>
+          </li>
+          <li>
+            <a href="#menu">Menu Kopiku</a>
+          </li>
+          <li>
+            <a href="#contact">Yuk, Kenal Kopiku</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <!-- Opening -->
+      <h1>SELAMAT DATANG DI KEDAI KOPIKU</h1>
+      <h2>Kedai Kopi Lokal Favoritmu</h2>
+      <article>
+        <section>
+            <!-- Formulir Pemesanan -->
+          <form action="">
+            <!-- Input Text - Nama Lengkap -->
+            <div>
+              <label for="name-input">Nama Lengkap: </label> <br>
+              <input
+                type="text"
+                name="name"
+                required
+                minlength="3"
+                id="name-input"
+                placeholder="Masukkan Nama Kamu"
+              />
+            </div>
+            <br />
+            <!-- Radio Button - Pilih tempat duduk -->
+            <div>
+              <label for="radio-input">Pillih Tempat Duduk Favoritmu: </label> <br>
+              <input
+                type="radio"
+                name="radio"
+                id="radio-input"
+                value="1"
+              />
+              <label for="radio-input">Indoor (Dalam Ruangan)</label>
+              <input
+                type="radio"
+                name="radio"
+                id="radio-input"
+                value="2"
+              />
+              <label for="radio-input">Outdoor (Luar Ruangan)</label>
+            </div>
+            <br>
+            <div>
+              <label for="select-input">Pilih Jenis Kopi Favoritmu: </label>
+              <select name="select" id="select-input">
+                <option value="1">Espresso</option>
+                <option value="2">Cappucino</option>
+                <option value="3">Latte</option>
+                <option value="4">Macchiato</option>
+                <option value="5">Mocha</option>
+              </select>
+            </div>
+            <br>
+            <div>
+              <label for="checkbox-input">Ada permintaan lain? </label> <br>
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox-input"
+                value="1"
+              />
+              <label for="checkbox-input">Butuh Colokan Listrik</label>
+
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox-input"
+                value="2"
+              />
+              <label for="checkbox-input">Area Non-Merokok</label>
+
+              <input
+                type="checkbox"
+                name="checkbox"
+                id="checkbox-input"
+                value="2"
+              />
+              <label for="checkbox-input">Password Wifi</label>
+            </div>
+            <br>
+            <div>
+              <label for="textarea-input">Ada Catatan Tambahan? </label>
+              <br>
+              <textarea
+                name="textarea"
+                id="textarea-input"
+                placeholder="Masukkan Keterangan Tambahan"
+              ></textarea>
+            </div>
+            <br>
+            <button type="submit">Pesan Kopiku</button>
+          </form>
+        </section>
+      </article>
+    </main>
+    <aside></aside>
+    <footer>
+      <p>&copy; 2025 KopiKu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
